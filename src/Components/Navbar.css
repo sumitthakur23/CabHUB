@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    background-color: black;
+    width:99vw;
+}
+.header img{
+    width: 100vw;
+    height: 95vh;
+}
+.header{
+    position: relative;
+}
+.logo{
+    width: 90%;
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top:2vh;
+    left:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+#white-heading{
+    color: white;
+    font-size: 40px;
+}
+#yellow-heading{
+    color: #ffc61a;
+    font-size: 40px;
+}
+#black-heading{
+    color: black;
+    font-size: 40px;
+}
+.small-text{
+    font-size: large;
+    color: white;
+    letter-spacing: 8px;
+}
+.logoname>p{
+    color: white;
+    margin-left: 10px;
+}
+.navbar{
+    display: flex;
+    gap: 3rem;
+}
+.navbar>a:hover{
+    transform: scale(1.1);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 35px;
+    background-color: #ffc61a;
+    text-align: center;
+    color: black;
+}
+.navbar>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.text{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    text-align: center;
+}
+.image{
+    position: absolute;
+    top: 310px;
+    left: 280px;
+}
+.image img{
+    width: 750px;
+    height: 450px;
+}
+

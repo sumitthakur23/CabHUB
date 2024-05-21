@@ -1,0 +1,70 @@
+.body-3{
+    height: 100vh;
+    width: 99vw;
+    position: relative;
+}
+.body-3> .img>img{
+    width: 130%;                      
+    height: 100vh;
+}
+.body-3-heading{
+    position: absolute;
+    width: 99vw;                      
+    height: 100vh;
+    text-align: center;
+    top:30px;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    position: absolute;
+    top: 160px;
+    left: 220px;
+    height: 70%;
+    width: 70%;
+}
+#black-star{
+    position: absolute;
+    left: 27px;
+    top: 27px; 
+}
+.grid{
+    display: flex;
+    gap: 2rem;
+}
+#yellow-text{
+    color: #ffc61a;
+}
+#white-text{
+    color: #fff;
+}
+#fast-booking{
+    position: absolute;
+    top: 26px;
+    left: 500px;
+}
+#bonuses{
+    position: absolute;
+    left: 28px;
+    top: 260px;
+}
+#black-settings{
+    position: absolute;
+    top: 265px;
+    right: 420px;
+}
+.button{
+    position: absolute;
+    bottom: 65px;
+    left: 630px;
+    border-radius: 4px;
+    height: 37px;
+    width: 150px;
+    font-weight: 700;
+    padding-top: 3px;
+    font-size: large;
+    text-align: center;
+    background-color: #ffc61a;
+    color: black;
+}

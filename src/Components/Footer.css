@@ -1,0 +1,53 @@
+.body-7{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexs{
+    height: 60%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.flex-items{
+    height: 100%;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.yellow-div{
+    width: 340px;
+    height: 5px;
+    background-color:#ffc61a;
+}
+.body-6-text-img{
+    display: flex;
+    gap: 1rem;
+}
+.download-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.body-6-contact-img{
+    display: flex;
+    gap: 1rem;
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer{
+    position: relative;
+    top: 75vh;
+    text-align: center;
+    word-spacing: 0.3rem;
+}
